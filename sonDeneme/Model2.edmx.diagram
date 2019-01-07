@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="02dd705d1a5c478b9908b497ce2e98e2" Name="Diagram1">
+        <EntityTypeShape EntityType="YurtOtomasyonuModel1.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YurtOtomasyonuModel1.Calisanlar" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="YurtOtomasyonuModel1.Disiplin" Width="1.5" PointX="8.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="YurtOtomasyonuModel1.Duyurular" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YurtOtomasyonuModel1.Giderler" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YurtOtomasyonuModel1.GirisCikis" Width="1.5" PointX="8.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="YurtOtomasyonuModel1.Kullanicilar" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YurtOtomasyonuModel1.Oda" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="YurtOtomasyonuModel1.Ogrenciler" Width="1.5" PointX="6" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="YurtOtomasyonuModel1.sysdiagrams" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="YurtOtomasyonuModel1.FK_dbo_Calisanlar_dbo_Kullanicilar_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="YurtOtomasyonuModel1.FK_dbo_Disiplin_dbo_Ogrenciler_Ogrenciler_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="YurtOtomasyonuModel1.FK_dbo_GirisCikis_dbo_Ogrenciler_Ogrenciler_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="YurtOtomasyonuModel1.FK_dbo_Ogrenciler_dbo_Kullanicilar_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="YurtOtomasyonuModel1.FK_dbo_Ogrenciler_dbo_Oda_oda_oda_ID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

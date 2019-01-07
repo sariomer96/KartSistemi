@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="YurtOtomasyonuModelStoreContainer" CdmEntityContainer="YurtOtomasyonuEntities">
+    <EntitySetMapping Name="Disiplin">
+      <EntityTypeMapping TypeName="YurtOtomasyonuModel.Disiplin">
+        <MappingFragment StoreEntitySet="Disiplin">
+          <ScalarProperty Name="disiplin_ID" ColumnName="disiplin_ID" />
+          <ScalarProperty Name="konu" ColumnName="konu" />
+          <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="Ogrenciler_ID" ColumnName="Ogrenciler_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

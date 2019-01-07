@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YurtOtomasyonuModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Disiplin">
+    <Key>
+      <PropertyRef Name="disiplin_ID" />
+    </Key>
+    <Property Name="disiplin_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="konu" Type="String" MaxLength="55" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="aciklama" Type="String" MaxLength="400" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tarih" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Ogrenciler_ID" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="YurtOtomasyonuEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Disiplin" EntityType="Self.Disiplin" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,12 @@
+C:\Users\selahattin.sari\source\repos\sonDeneme\sonDeneme\bin\Debug\sonDeneme.exe.config
+C:\Users\selahattin.sari\source\repos\sonDeneme\sonDeneme\bin\Debug\sonDeneme.exe
+C:\Users\selahattin.sari\source\repos\sonDeneme\sonDeneme\bin\Debug\sonDeneme.pdb
+C:\Users\selahattin.sari\source\repos\sonDeneme\sonDeneme\obj\Debug\sonDeneme.csprojAssemblyReference.cache
+C:\Users\selahattin.sari\source\repos\sonDeneme\sonDeneme\obj\Debug\sonDeneme.csproj.CoreCompileInputs.cache
+C:\Users\selahattin.sari\source\repos\sonDeneme\sonDeneme\obj\Debug\sonDeneme.exe
+C:\Users\selahattin.sari\source\repos\sonDeneme\sonDeneme\obj\Debug\sonDeneme.pdb
+C:\Users\selahattin.sari\source\repos\sonDeneme\sonDeneme\bin\Debug\EntityFramework.dll
+C:\Users\selahattin.sari\source\repos\sonDeneme\sonDeneme\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\selahattin.sari\source\repos\sonDeneme\sonDeneme\bin\Debug\EntityFramework.xml
+C:\Users\selahattin.sari\source\repos\sonDeneme\sonDeneme\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\selahattin.sari\source\repos\sonDeneme\sonDeneme\obj\Debug\sonDeneme.csproj.CopyComplete
